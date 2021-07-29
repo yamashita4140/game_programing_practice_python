@@ -1,6 +1,6 @@
 # 引数と戻り値のある関数
 
-def add(a, b):
+def add(a: int, b: int) -> int:
     return a + b    # <- 2つの引数の加算結果を戻り値として返している
 
 
