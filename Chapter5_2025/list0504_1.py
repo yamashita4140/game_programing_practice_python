@@ -10,3 +10,9 @@ for i in ALP:
         alp = alp + i
 
 print(alp)
+
+ans = input("抜けているアルファベットは?:")
+if ans == r:
+    print("正解です!")
+else:
+    print("違います!")
